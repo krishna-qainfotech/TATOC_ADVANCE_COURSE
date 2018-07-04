@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7274" started-at="2018-07-04T08:29:42Z" finished-at="2018-07-04T08:29:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7274" started-at="2018-07-04T08:29:42Z" finished-at="2018-07-04T08:29:49Z">
+      <class name="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="Open_Browser" duration-ms="1943" started-at="2018-07-04T08:29:42Z" finished-at="2018-07-04T08:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Select_Advance_Course()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="Select_Advance_Course" duration-ms="110" started-at="2018-07-04T08:29:44Z" finished-at="2018-07-04T08:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Advance_Course -->
+        <test-method status="PASS" signature="Select_Menu2_and_Click_GO_To_nextPage()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="Select_Menu2_and_Click_GO_To_nextPage" duration-ms="1145" started-at="2018-07-04T08:29:44Z" depends-on-methods="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course.Select_Advance_Course" finished-at="2018-07-04T08:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Menu2_and_Click_GO_To_nextPage -->
+        <test-method status="PASS" signature="Query_gate()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="Query_gate" duration-ms="1520" started-at="2018-07-04T08:29:45Z" depends-on-methods="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course.Select_Menu2_and_Click_GO_To_nextPage" finished-at="2018-07-04T08:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Query_gate -->
+        <test-method status="PASS" signature="rest_Service()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="rest_Service" duration-ms="259" started-at="2018-07-04T08:29:47Z" depends-on-methods="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course.Query_gate" finished-at="2018-07-04T08:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rest_Service -->
+        <test-method status="PASS" signature="test005_fileHandling()[pri:0, instance:com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course@a38d7a3]" name="test005_fileHandling" duration-ms="2272" started-at="2018-07-04T08:29:47Z" depends-on-methods="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course.rest_Service" finished-at="2018-07-04T08:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005_fileHandling -->
+      </class> <!-- com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

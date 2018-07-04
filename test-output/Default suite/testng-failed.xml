@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course">
+        <methods>
+          <include name="Select_Advance_Course"/>
+          <include name="Select_Menu2_and_Click_GO_To_nextPage"/>
+          <include name="test004_rest_Service"/>
+          <include name="test005_fileHandling"/>
+          <include name="Query_gate"/>
+        </methods>
+      </class> <!-- com.qainfotech.in.TATOC_ADVANCE_COURSE.Test_Case_for_TATOC_Advance_Course -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
